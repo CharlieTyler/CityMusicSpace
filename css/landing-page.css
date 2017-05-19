@@ -52,7 +52,7 @@ h6 {
 }
 
 .intro-divider {
-    width: 400px;
+    width: 350px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -100,6 +100,12 @@ h6 {
 .content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.content-section-c {
+    padding: 40px 0;
+    background-color: #e6e6e6;
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -167,4 +173,34 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+    padding-left: 15px;
+}
+
+input {
+    padding: 12px 20px;
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    background-color: #cccccc;
+
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #cccccc;
+}
+
+input[type="submit"]:hover {
+    background-color: #999999;
+}
+
+a.nav-own{
+    padding: 35px 35px
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-decoration: none;
+    color: #999999;
 }
